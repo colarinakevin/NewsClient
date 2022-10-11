@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">News Client</string>
+    <string name="api_key">24743b84ce8443e1b11b30a46a3d4713</string>
+    <string name="philippines">PHILIPPINES</string>
+    <string name="top_news">TOP NEWS</string>
+</resources>

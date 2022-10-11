@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:id="@+id/main_container"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardElevation="10dp"
+    android:layout_margin="5dp"
+
+    android:foreground="?attr/selectableItemBackground"
+    android:clickable="true"
+    app:cardCornerRadius="15dp"
+    android:background="@drawable/card_grad"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="218dp"
+        android:layout_margin="0dp"
+        android:background="@drawable/card_grad"
+        android:orientation="horizontal"
+        android:weightSum="4">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="0dp"
+            android:layout_weight="3"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text_title"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:layout_margin="5dp"
+                android:maxLines="3"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/text_source"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:layout_margin="5dp"
+                android:maxLines="1"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"></TextView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/img_hlimage"
+        android:layout_width="match_parent"
+        android:layout_height="113dp"
+        android:layout_marginTop="105dp"
+        android:layout_weight="1"
+        android:scaleType="centerCrop"
+        android:src="@drawable/no_image"></ImageView>
+</androidx.cardview.widget.CardView>
