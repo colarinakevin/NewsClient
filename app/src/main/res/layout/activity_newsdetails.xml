@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/round_corner"
+    android:background="@drawable/gradbg"
     tools:context=".NewsDetailsAct">
 
     <ScrollView
@@ -15,21 +15,22 @@
             android:orientation="vertical"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/round_corner">
+            android:background="@drawable/gradbg">
             <androidx.cardview.widget.CardView
                 app:cardElevation="8dp"
                 android:layout_margin="8dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/round_corner">
+                android:background="@drawable/gradbg">
                 <LinearLayout
                     android:orientation="vertical"
                     android:layout_margin="6dp"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/card_grad">
                     <TextView
                         android:id="@+id/text_detail_title"
-                        android:text="black"
+                        android:textColor="@color/white"
                         android:textStyle="bold"
                         android:textAlignment="center"
                         android:textSize="28sp"
@@ -50,7 +51,7 @@
                         android:id="@+id/text_detail_author"
                         android:layout_marginTop="6dp"
                         android:layout_margin="8dp"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="16sp"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content">
@@ -59,7 +60,7 @@
                         android:id="@+id/text_detail_time"
                         android:layout_marginTop="6dp"
                         android:layout_margin="8dp"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="16sp"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content">
@@ -68,7 +69,7 @@
                     <TextView
                         android:id="@+id/text_detail_detail"
                         android:textSize="23sp"
-                        android:textColor="@color/purple_500"
+                        android:textColor="@color/white"
                         android:layout_marginTop="8dp"
                         android:layout_margin="8dp"
                         android:textStyle="italic"
@@ -79,7 +80,7 @@
                     <TextView
                         android:id="@+id/text_detail_content"
                         android:textSize="20sp"
-                        android:textColor="@color/purple_500"
+                        android:textColor="@color/white"
                         android:layout_marginTop="8dp"
                         android:layout_margin="8dp"
                         android:layout_width="match_parent"
