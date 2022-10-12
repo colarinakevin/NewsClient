@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.cardview.widget.CardView android:id="@+id/main_container"
+<androidx.cardview.widget.CardView
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_container"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     app:cardElevation="10dp"
     android:layout_margin="5dp"
-
     android:foreground="?attr/selectableItemBackground"
     android:clickable="true"
     app:cardCornerRadius="15dp"
-    android:background="@drawable/card_grad"
-
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    android:background="@drawable/gradbg"
+    >
 
     <LinearLayout
-
         android:layout_width="match_parent"
         android:layout_height="218dp"
         android:layout_margin="0dp"
@@ -60,5 +59,6 @@
         android:layout_marginTop="105dp"
         android:layout_weight="1"
         android:scaleType="centerCrop"
-        android:src="@drawable/no_image"></ImageView>
+        android:src="@drawable/no_image">
+    </ImageView>
 </androidx.cardview.widget.CardView>
